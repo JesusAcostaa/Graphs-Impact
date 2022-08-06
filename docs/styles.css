@@ -131,5 +131,30 @@ main {
     margin-bottom: 30px;
     font-size: 2.4rem;
     font-weight: bold;
-    line-height: ;
+    line-height: 2.6rem;
+    color: var(--bacground-twocolor);
 }
+
+.main-information-container p{
+    margin-bottom: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    color: var(--secondary-color);
+
+}
+.section--infoCharacter h3{
+    margin-top: 30px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.3rem;
+    color: var(--principal-color);
+}
+
+.section--infoCharacter div img{
+    width: 320px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+
