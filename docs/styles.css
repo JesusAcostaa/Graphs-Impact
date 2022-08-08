@@ -214,17 +214,29 @@ main {
     box-shadow: 0 4px 8px rgba(41, 50, 90, 0.16);
 }
 
-.product-detail--card .clock{
+.product-detail--card .icon-card{
     display:  inline-block;
     width: 20px;
     height: 20px;
     margin-bottom: 10px;
-    background-image: url('/docs/assets/icons/clock.png');
+    
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
+.clock{
+    background-image: url('/docs/assets/icons/clock.png');
+}
+.eye{
+    background-image: url('./assets/icons/icon-eye.png');
+}
+.money{
+    background-image: url('./assets/icons/pyro.png');
+}
+.check{
+    background-image: url('./assets/icons/anemo.png');
+}
 .product--card-title{
     margin-bottom: 15px;
     font-size: 1.8rem;
@@ -238,4 +250,22 @@ main {
     font-weight: 500;
     line-height: 1.8rem;
     color: var(--soft-purple);
+}
+.impact-img-container{
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    background-image: url('./assets/images/pexels-madison-inouye-1831234.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.impact-img-container h2 {
+    padding-top: 60px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--bacground-twocolor);
 }
