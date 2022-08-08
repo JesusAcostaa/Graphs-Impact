@@ -166,3 +166,38 @@ main {
     background-color: var(--bacground-twocolor);
 }
 
+.product-detail--paimon-logo{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: -10px;
+    left: calc(50% - 20px);
+    background-image: url(./assets/icons/paimon-icon.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.product-detail--title{
+    width: 90%;
+    min-width: 298px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+.product-detail--title h2{
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+
+.product-detail--title p{
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--soft-purple);
+}
