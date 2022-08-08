@@ -201,3 +201,41 @@ main {
     line-height: 1.8rem;
     color: var(--soft-purple);
 }
+
+.product-detail--card{
+    padding: 15px;
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: auto;  
+    margin: 15px auto;
+    background-color: #0d0f35 ;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(41, 50, 90, 0.16);
+}
+
+.product-detail--card .clock{
+    display:  inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url('/docs/assets/icons/clock.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.product--card-title{
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--just-white);
+}
+
+.product--card-body{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--soft-purple);
+}
