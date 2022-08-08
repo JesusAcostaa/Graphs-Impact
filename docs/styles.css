@@ -226,7 +226,7 @@ main {
 }
 
 .clock{
-    background-image: url('/docs/assets/icons/clock.png');
+    background-image: url('./assets/icons/clock.png');
 }
 .eye{
     background-image: url('./assets/icons/icon-eye.png');
